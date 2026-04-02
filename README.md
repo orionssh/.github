@@ -1,36 +1,60 @@
 # .github
 # Orion
 
-**Orion is a developer-focused AI platform designed to understand, analyze, and interact with codebases through intelligent agents.**
-Our goal is to build tools that help developers, students, and technical teams move faster by automating repetitive workflows and making complex projects easier to understand.
+Tools for understanding codebases without wasting time.
 
 ---
-## Mission
-We believe software development is becoming increasingly complex, but understanding code should not be.
 
-Orion exists to:
-- Reduce time spent understanding unfamiliar codebases
-- Automate documentation and workflow tasks
-- Provide intelligent project-level insights
-- Enable developers to interact with software systems naturally
+## What this is
 
-We are building a platform where **AI agents act as assistants that understand code — not just text.**
+Orion is building AI agents that help you make sense of real projects.
+
+Not snippets. Not toy examples.
+Actual codebases.
+
 ---
-## Core Focus
-Our first major product focus is:
 
-### Repo Intelligence Agent
-An AI-powered system that:
-- Analyzes entire repositories
-- Generates architecture summaries
-- Explains code structure
-- Maintains project documentation
-- Helps onboard new developers
-- Enables natural-language querying of codebases
+## Why it exists
 
-Example queries:
-What does this project do?
-Where is authentication implemented?
-Explain the API structure.
-Summarize recent changes.
+If you’ve ever opened a new repo and thought:
 
+* where do I even start
+* how does this thing actually work
+* who designed this mess
+
+That’s the problem.
+
+---
+
+## What we’re working on
+
+A repo intelligence agent that can:
+
+* break down a codebase
+* explain structure and flow
+* answer questions about the project
+* help you get oriented quickly
+
+No fluff. Just clarity.
+
+---
+
+## Status
+
+Early.
+
+---
+
+## Notes
+
+We care about:
+
+* signal over noise
+* tools that actually save time
+* things that feel obvious once they exist
+
+---
+
+## Contact
+
+[put something here if you want]
