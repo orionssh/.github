@@ -1,60 +1,62 @@
-# .github
-# Orion
+<div align="center">
 
-Tools for understanding codebases without wasting time.
+ ██████╗ ██████╗ ██╗ ██████╗ ███╗   ██╗
+██╔═══██╗██╔══██╗██║██╔═══██╗████╗  ██║
+██║   ██║██████╔╝██║██║   ██║██╔██╗ ██║
+██║   ██║██╔══██╗██║██║   ██║██║╚██╗██║
+╚██████╔╝██║  ██║██║╚██████╔╝██║ ╚████║
+ ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+**Understanding code shouldn’t take hours.**
+<br>
 
----
+`repo intelligence` • `documentation` • `architecture clarity`
 
-## What this is
-
-Orion is building AI agents that help you make sense of real projects.
-
-Not snippets. Not toy examples.
-Actual codebases.
-
----
-
-## Why it exists
-
-If you’ve ever opened a new repo and thought:
-
-* where do I even start
-* how does this thing actually work
-* who designed this mess
-
-That’s the problem.
+</div>
 
 ---
 
-## What we’re working on
+## About
 
-A repo intelligence agent that can:
+Orion builds tools for making sense of real codebases.
 
-* break down a codebase
-* explain structure and flow
-* answer questions about the project
-* help you get oriented quickly
+Not snippets.
+Not surface-level AI.
 
-No fluff. Just clarity.
+Systems, structure, and context.
 
 ---
 
-## Status
+## Why
 
-Early.
+A lot of development time is spent figuring out what already exists:
 
----
+* where things live
+* how parts connect
+* what a system is actually doing
+* where to start without wasting half a day
 
-## Notes
-
-We care about:
-
-* signal over noise
-* tools that actually save time
-* things that feel obvious once they exist
+That part is still slower than it should be.
 
 ---
 
-## Contact
+## What we're building
 
-[put something here if you want]
+A repo intelligence layer for developers.
+
+Something that can read a project and help explain:
+
+* structure
+* flow
+* architecture
+* key logic
+* actual project context
+
+Clear answers, without the usual friction.
+
+---
+
+<div align="center">
+
+<sub>Early, but intentional.</sub>
+
+</div>
