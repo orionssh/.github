@@ -1,7 +1,10 @@
 <div align="center">
-**ORION**
-_**Understanding code shouldn’t take hours.**
-_<br>
+
+# ORION
+
+*Understanding codebases without wasting time.*
+
+<br>
 
 `repo intelligence` • `documentation` • `architecture clarity`
 
@@ -46,6 +49,14 @@ Something that can read a project and help explain:
 * actual project context
 
 Clear answers, without the usual friction.
+
+---
+
+## Principles
+
+* clarity over noise
+* useful over clever
+* built for real workflows
 
 ---
 
