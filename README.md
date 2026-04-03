@@ -1,67 +1,74 @@
 <div align="center">
 
-# ORION
+# Orion
 
-*Understanding codebases without wasting time.*
+**Repo intelligence for engineers who read code for a living.**
 
 <br>
 
-`repo intelligence` • `documentation` • `architecture clarity`
+[![Status](https://img.shields.io/badge/status-early_access-blue)](#)
+[![License](https://img.shields.io/badge/license-MIT-green)](#)
 
 </div>
 
 ---
 
-## About
+## What it is
 
-Orion builds tools for making sense of real codebases.
+Orion is a codebase analysis tool that builds a structured understanding of a repository — its architecture, data flow, module boundaries, and key logic — and surfaces that as queryable context.
 
-Not snippets.
-Not surface-level AI.
-
-Systems, structure, and context.
+It is designed for engineers dropped into unfamiliar code who need answers fast, without grep-and-pray or spending an afternoon reading call stacks.
 
 ---
 
-## Why
+## Core capabilities
 
-A lot of development time is spent figuring out what already exists:
-
-* where things live
-* how parts connect
-* what a system is actually doing
-* where to start without wasting half a day
-
-That part is still slower than it should be.
-
----
-
-## What we're building
-
-A repo intelligence layer for developers.
-
-Something that can read a project and help explain:
-
-* structure
-* flow
-* architecture
-* key logic
-* actual project context
-
-Clear answers, without the usual friction.
+| Capability | Description |
+|---|---|
+| **Structural mapping** | Identifies module boundaries, entry points, dependency graphs, and inter-service contracts |
+| **Flow tracing** | Traces execution paths across files and packages from a named symbol or endpoint |
+| **Architecture inference** | Detects architectural patterns (layered, hexagonal, event-driven, etc.) from structure alone |
+| **Context extraction** | Produces a precise, token-efficient summary of what a repo does and how it is organised |
+| **Change impact analysis** | Given a diff, identifies which components are affected and flags high-risk blast radius |
 
 ---
 
-## Principles
+## Who it's for
 
-* clarity over noise
-* useful over clever
-* built for real workflows
+- Engineers onboarding to a large or legacy codebase
+- Reviewers who need full context before approving a diff
+- Teams maintaining systems with poor or absent documentation
+- Anyone who has spent time reverse-engineering code that should have been obvious
+
+---
+
+## Design decisions
+
+**No LLM hallucination layer on top of vague embeddings.**
+Analysis is grounded in static structure — ASTs, import graphs, call graphs — before any language model touches it. The model explains structure it can actually see.
+
+**Deterministic outputs for structural queries.**
+Module maps, dependency trees, and entry points are computed, not guessed. Language model involvement is scoped to explanation and summarisation, not inference of facts.
+
+**Repo-local by default.**
+Nothing leaves your machine unless you explicitly choose a hosted mode. The local path is first-class.
+
+---
+
+## Status
+
+Active development. Core analysis pipeline is functional for TypeScript and Python repositories. Go, Rust, and Java support are in progress.
+
+Not production-hardened yet. Breaking changes are expected.
+
+---
+
+## Get involved
+
+Issues and technical feedback are open. If you work on tooling, developer experience, or spend time reasoning about large codebases, conversation is welcome.
 
 ---
 
 <div align="center">
-
-<sub>Early, but intentional.</sub>
-
+<sub>orionssh — building the layer between you and unfamiliar code</sub>
 </div>
